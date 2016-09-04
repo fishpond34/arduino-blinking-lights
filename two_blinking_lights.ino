@@ -19,7 +19,6 @@ void setup() {
  */
 void turnOnPin(int pinNumber) {
   int pinNumbers[] = {8, 12, 13};
-  
   for (int i = 0; i < 3; i = i + 1) {
     int status = LOW;
     if (pinNumbers[i] == pinNumber) {
