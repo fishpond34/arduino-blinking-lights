@@ -7,7 +7,7 @@
  * Sets up this program.
  */
 void setup() {
-  // Intialize pins 13, and 12 so that we can use them as outputs.
+  // Initializes pins as outputs.
   pinMode(13, OUTPUT);
   pinMode(12, OUTPUT);
   pinMode(11, OUTPUT);
@@ -37,51 +37,57 @@ void turnOnPin(int pinNumber) {
  * Main program loop.
  */
 void loop() {
-  // Turn on pin 12 light.
+  // Turn on pin 13.
   turnOnPin(13);
   
-  // Wait for one second, and leave the pin 12 light on.
+  // Wait for one second.
   delay(1000);
 
-  // Turn on pin 13 light.
+  // Turn on pin 12.
   turnOnPin(12);
   
   // Wait for one second and leave pin 13 on.
   delay(1000);
 
-  // Turn on pin 8 light.
+  // Turn on pin 11.
   turnOnPin(11);
 
-  // Wait for one second and leave pin 8 on.
+  // Wait for one second.
   delay(1000);
 
- //turn on pin 11 light.
- turnOnPin(10);
+  // Turn on pin 10.
+  turnOnPin(10);
 
- ///Wait for one second and leave pin -11 on.
- delay(1000);
+  // Wait for one second.
+  delay(1000);
 
- //Turn on pin 10 light.
-turnOnPin(9);
+  // Turn on pin 9.
+  turnOnPin(9);
 
- //Wait one second and leave pin -10 on.
- delay(1000);
+  // Wait for one second.
+  delay(1000);
+  
+  // Turn on pin 8.
+  turnOnPin(8);
+  
+  // Wait for one second.
+  delay(1000);
 
-//Turn on pin 9 light.
-turnOnPin(8);
+  // Turn on pin 7.
+  turnOnPin(7);
 
-//Wait for one seond and leave pin -9 on.
-delay(1000);
+  // Wait for one second.
+  delay(1000);
 
-turnOnPin(7);
+  // Turn on pin 6.
+  turnOnPin(6);
 
-delay(1000);
+  // Wait for one second.
+  delay(1000);
 
-turnOnPin(6);
+  // Turn on pin 5.
+  turnOnPin(5);
 
-delay(1000);
-
-turnOnPin(5);
-
-delay(1000);
+  // Wait for one second.
+  delay(1000);
 }
